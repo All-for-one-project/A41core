@@ -189,15 +189,15 @@ namespace CryptoNote
         /* Make sure CURRENT_FORK_INDEX is a valid index, unless FORK_HEIGHTS is empty */
         static_assert(FORK_HEIGHTS_SIZE == 0 || CURRENT_FORK_INDEX < FORK_HEIGHTS_SIZE, "CURRENT_FORK_INDEX out of range of FORK_HEIGHTS!");
 
-        const char     CRYPTONOTE_BLOCKS_FILENAME[]       =                                               "gem_blocks.bin";
-        const char     CRYPTONOTE_BLOCKINDEXES_FILENAME[] =                                         "gem_blockindexes.bin";
-        const char     CRYPTONOTE_POOLDATA_FILENAME[]     =                                            "gem_poolstate.bin";
-        const char     P2P_NET_DATA_FILENAME[]            =                                             "gem_p2pstate.bin";
-        const char     MINER_CONFIG_FILE_NAME[]           =                                          "gem_miner_conf.json";
+        const char     CRYPTONOTE_BLOCKS_FILENAME[]       =                                               "a41_blocks.bin";
+        const char     CRYPTONOTE_BLOCKINDEXES_FILENAME[] =                                         "a41_blockindexes.bin";
+        const char     CRYPTONOTE_POOLDATA_FILENAME[]     =                                            "a41_poolstate.bin";
+        const char     P2P_NET_DATA_FILENAME[]            =                                             "a41_p2pstate.bin";
+        const char     MINER_CONFIG_FILE_NAME[]           =                                          "a41_miner_conf.json";
     } // namespace parameters
 
-    const char     CRYPTONOTE_NAME[]           =              "Redstones";
-    const char     DATADIR_NAME[]              =              "Redstones_db";
+    const char     CRYPTONOTE_NAME[]           =              "AllForOne";
+    const char     DATADIR_NAME[]              =              "AllForOne_db";
 
     const uint8_t  TRANSACTION_VERSION_1       =                     1;
     const uint8_t  TRANSACTION_VERSION_2       =                     2;
