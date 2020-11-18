@@ -1,24 +1,16 @@
-#                                        RedStone
+#                                        A41
 
 
-
-![Github All Releases](https://img.shields.io/github/downloads/RedStoneCoin/redstone/total.svg)
-[![Join the chat at https://discordapp.com/invite/8ezwRUK](https://img.shields.io/discord/539606376339734558.svg?label=discord&logo=discord&logoColor=white)](https://discord.gg/JjThnVdASR)
-[![GitHub contributors](https://img.shields.io/github/contributors-anon/Redstonecoin/redstone?label=Contributors)](https://github.com/Redstonecoin/redstone/graphs/contributors) [![GitHub issues](https://img.shields.io/github/issues/Redstonecoin/redstone?label=Issues)](https://github.com/RedStoneCoin/redstone/issues) ![GitHub stars](https://img.shields.io/github/stars/Redstonecoin/redstone?label=Github%20Stars)
 
 
 
 This is official main repo
 RedStones is the  cryptocurrency. Rarity, privacy and a finite supply.
 
-## Airdorp options
-Big Thanks for Fairdrop 
-RedStone will be on fairdrop so singin with idena and wait :)
-https://fairdrop.io/
 
 ## Installing
 
-We offer binary images of the latest releases [here](https://github.com/RedStoneCoin/redstone/releases/latest)
+We offer binary images of the latest releases [here](https://github.com/All-for-one-project/A41core/)
 
  If you would like to compile yourself, read on.
 
@@ -206,8 +198,7 @@ redstone-node.exe --version
 
 Cryptonote Developers, Bytecoin Developers, Monero Developers, Forknote Project, Xenium Community, Avrio Developer
 
-#### People who support project.
-Rioda, Puip, Lemoe ,The Don ,Reborn ,Paul Bismuth ,Leo Cornelius(Also dev):) ,Telcontar ,Emiel and lot more.
+
 ### Copypasta for license when editing files
 
 
@@ -222,5 +213,4 @@ Rioda, Puip, Lemoe ,The Don ,Reborn ,Paul Bismuth ,Leo Cornelius(Also dev):) ,Te
 By downloading you agree on our eula
 ```
 
-![Alt Text](https://github.com/RedStoneCoin/redstone/blob/development/RS512.gif)
-© RedStone 2020. All Rights Reserved.
+![Alt Text](https://github.com/RedStoneCoin/redstone/blob/development/RS512.gif)© RedStone 2020. All Rights Reserved.
