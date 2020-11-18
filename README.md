@@ -215,4 +215,4 @@ Cryptonote Developers, Bytecoin Developers, Monero Developers, Forknote Project,
 By downloading you agree on our eula
 ```
 
-![Alt Text](https://github.com/RedStoneCoin/redstone/blob/development/RS512.gif)© RedStone 2020. All Rights Reserved.
+![Alt Text]()© AllForOne 2020. All Rights Reserved.
