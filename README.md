@@ -216,4 +216,6 @@ By downloading you agree on our eula
 ```
 
 ![Alt Text](https://i.imgur.com/Sz4ozQ1.png)© 
-![Alt Text]AllForOne 2020. All Rights Reserved.
+
+
+AllForOne 2020. All Rights Reserved.
