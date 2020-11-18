@@ -47,7 +47,7 @@ namespace CryptoNote
         const uint64_t LWMA_2_DIFFICULTY_BLOCK_INDEX_V3         =                          500'000;
 
 
-        const uint64_t GENESIS_BLOCK_REWARD                     =         UINT64_C(250000000000); // Premine = 5000000;
+        const uint64_t GENESIS_BLOCK_REWARD                     =         UINT64_C(2000000000); // Premine = 2000;
 
         const char GENESIS_COINBASE_TX_HEX[] = "010101ff00018090cad2c60e02da29990611ca5b1a4e88013ee5b2c88899eb913ed6d8d38ff6fec81ca4aba11f21014c1fab22118356311460ce4ab58fadbfde18bb094b8f1a0b2514c67c389cc540";
 
@@ -230,8 +230,8 @@ namespace CryptoNote
     //Need to change ports here i will put soemthing 
     //Seednode not working i that why im changeing ports
 
-    const int      P2P_DEFAULT_PORT                          =            44401; //9090 new port 44404
-    const int      RPC_DEFAULT_PORT                          =            44402; //9999 new port 44403
+    const int      P2P_DEFAULT_PORT                          =            41411; //9090 new port 44404
+    const int      RPC_DEFAULT_PORT                          =            41412; //9999 new port 44403
                                                                               
     const int      SERVICE_DEFAULT_PORT                      =             1010;
 
