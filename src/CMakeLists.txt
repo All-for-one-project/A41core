@@ -190,13 +190,13 @@ add_dependencies(WalletService version)
 add_dependencies(AvrioWallet-deprecated version)
 
 # Finally build the binaries
-set_property(TARGET AvrioDaemon PROPERTY OUTPUT_NAME "redstone-node")
-set_property(TARGET AvrioWallet PROPERTY OUTPUT_NAME "redwallet")
+set_property(TARGET AvrioDaemon PROPERTY OUTPUT_NAME "a41-node")
+set_property(TARGET AvrioWallet PROPERTY OUTPUT_NAME "a41wallet")
 set_property(TARGET WalletService PROPERTY OUTPUT_NAME "gemservice")
 set_property(TARGET miner PROPERTY OUTPUT_NAME "geminer")
 set_property(TARGET cryptotest PROPERTY OUTPUT_NAME "Cryptotester")
-set_property(TARGET WalletApi PROPERTY OUTPUT_NAME "redwallet-api")
-set_property(TARGET WalletUpgrader PROPERTY OUTPUT_NAME "redwallet-upgrader")
+set_property(TARGET WalletApi PROPERTY OUTPUT_NAME "a42wallet-api")
+set_property(TARGET WalletUpgrader PROPERTY OUTPUT_NAME "a41wallet-upgrader")
 
 # Additional make targets, can be used to build a subset of the targets
 add_custom_target(solominer DEPENDS AvrioDaemon AvrioWallet miner)
