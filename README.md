@@ -42,7 +42,7 @@ If you are using Clang, you will need Clang 6.0 or higher. You will also need li
 sudo add-apt-repository ppa:ubuntu-toolchain-r/test -y
 sudo apt-get update
 sudo apt-get install -y build-essential g++-8 gcc-8 git libboost-all-dev libssl1.0-dev cmake
-git clone -b master --single-branch https://github.com/RedStoneCoin/redstone
+git clone -b master --single-branch https://github.com/All-for-one-project/A41core
 cd redstone
 mkdir build
 cd build
@@ -54,7 +54,7 @@ The binaries will be in the `src` folder when you are complete.
 
 ```bash
 cd src
-./redstone-node --version
+./a41-node --version
 ```
 
 ##### Ubuntu, using Clang
@@ -83,7 +83,7 @@ sudo apt-get update
 sudo apt-get install aptitude -y
 sudo aptitude install -y -o Aptitude::ProblemResolver::SolutionCost='100*canceled-actions,200*removals' build-essential clang-6.0 libstdc++-7-dev git libboost-all-dev python-pip libssl1.0-dev
 sudo pip install cmake
-git clone -b master https://github.com/RedStoneCoin/redstone
+git clone -b master https://github.com/All-for-one-project/A41core
 cd redstone
 mkdir build
 cd build
@@ -95,7 +95,7 @@ The binaries will be in the `src` folder when you are complete.
 
 ```bash
 cd src
-./redstone-node --version
+./a41-node --version
 ```
 
 ##### Generic Linux
@@ -106,7 +106,7 @@ If you want to use clang, ensure you set the environment variables `CC` and `CXX
 See the ubuntu instructions for an example.
 
 ```bash
-git clone -b master --single-branch https://github.com/RedStoneCoin/redstone
+git clone -b master --single-branch https://github.com/All-for-one-project/A41core
 cd redstone
 mkdir build
 cd build
@@ -118,7 +118,7 @@ The binaries will be in the `src` folder when you are complete.
 
 ```bash
 cd src
-./redstone-node --version
+./a41-node --version
 ```
 
 #### OSX/Apple, using Clang
@@ -134,7 +134,7 @@ cd src
 brew install --force cmake boost llvm@8 openssl
 brew link --force llvm@8
 ln -s /usr/local/opt/llvm@8 /usr/local/opt/llvm
-git clone -b master --single-branch https://github.com/RedStoneCoin/redstone
+git clone -b master --single-branch https://github.com/All-for-one-project/A41core
 cd redstone
 mkdir build
 cd build
@@ -145,7 +145,7 @@ The binaries will be in the `src` folder when you are complete.
 
 ```bash
 cd src
-./redstone-node --version
+./a41-node --version
 ```
 
 #### Windows
@@ -191,7 +191,7 @@ The binaries will be in the `src/Release` folder when you are complete.
 ```cmd
 cd src
 cd Release
-redstone-node.exe --version
+a41-node.exe --version
 ```
 
 #### Thanks
