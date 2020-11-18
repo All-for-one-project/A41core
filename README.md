@@ -5,7 +5,7 @@
 
 
 This is official main repo
-RedStones is the  cryptocurrency. Rarity, privacy and a finite supply.
+AllForOne is the pool mineable only cryptocurrency. Rarity, privacy and a finite supply.
 
 
 ## Installing
