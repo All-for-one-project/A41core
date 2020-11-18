@@ -215,4 +215,4 @@ Cryptonote Developers, Bytecoin Developers, Monero Developers, Forknote Project,
 By downloading you agree on our eula
 ```
 
-![Alt Text]()© AllForOne 2020. All Rights Reserved.
+![Alt Text](https://i.imgur.com/Sz4ozQ1.png)© AllForOne 2020. All Rights Reserved.
