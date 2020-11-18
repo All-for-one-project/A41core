@@ -43,7 +43,7 @@ sudo add-apt-repository ppa:ubuntu-toolchain-r/test -y
 sudo apt-get update
 sudo apt-get install -y build-essential g++-8 gcc-8 git libboost-all-dev libssl1.0-dev cmake
 git clone -b master --single-branch https://github.com/All-for-one-project/A41core
-cd redstone
+cd A41core-development
 mkdir build
 cd build
 CC=gcc-8 CXX=g++-8 cmake ..
@@ -84,7 +84,7 @@ sudo apt-get install aptitude -y
 sudo aptitude install -y -o Aptitude::ProblemResolver::SolutionCost='100*canceled-actions,200*removals' build-essential clang-6.0 libstdc++-7-dev git libboost-all-dev python-pip libssl1.0-dev
 sudo pip install cmake
 git clone -b master https://github.com/All-for-one-project/A41core
-cd redstone
+cd A41core-development
 mkdir build
 cd build
 CC=clang-6.0 CXX=clang++-6.0 cmake ..
@@ -107,7 +107,7 @@ See the ubuntu instructions for an example.
 
 ```bash
 git clone -b master --single-branch https://github.com/All-for-one-project/A41core
-cd redstone
+cd A41core-development
 mkdir build
 cd build
 cmake ..
@@ -135,7 +135,7 @@ brew install --force cmake boost llvm@8 openssl
 brew link --force llvm@8
 ln -s /usr/local/opt/llvm@8 /usr/local/opt/llvm
 git clone -b master --single-branch https://github.com/All-for-one-project/A41core
-cd redstone
+cd A41core-development
 mkdir build
 cd build
 CC=/usr/local/opt/llvm@8/bin/clang CXX=/usr/local/opt/llvm@8/bin/clang++ cmake ..
@@ -169,7 +169,7 @@ For 64-bit:
 From the start menu, open 'x64 Native Tools Command Prompt for VS 2019'.
 
 ```cmd
-cd <your_redstone_directory>
+cd <your_allforone_directory>
 mkdir build
 cd build
 cmake -G "Visual Studio 16 2019" -A x64 .. -DBOOST_ROOT=C:/local/boost_1_69_0
@@ -180,7 +180,7 @@ For 32-bit:
 From the start menu, open 'x86 Native Tools Command Prompt for VS 2019'.
 
 ```cmd
-cd <your_redstone_directory>
+cd <your_allforone_directory>
 mkdir build
 cd build
 cmake -G "Visual Studio 16 2019" -A Win32 .. -DBOOST_ROOT=C:/local/boost_1_69_0
@@ -209,6 +209,8 @@ Cryptonote Developers, Bytecoin Developers, Monero Developers, Forknote Project,
 // Copyright (c) 2019, The Xenium Developers,
 // Copyright (c) 2019, The Avrio Developers
 // Copyright (c) 2020, The RedStone Developers
+// Copyright (c) 2020, The AllForOne Developers
+
 // Please see the included LICENSE file for more information.
 By downloading you agree on our eula
 ```
