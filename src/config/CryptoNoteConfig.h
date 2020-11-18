@@ -23,8 +23,8 @@ namespace CryptoNote
         const uint64_t DIFFICULTY_TARGET                        =                               30; // seconds
 
         // Infinite supply, following is obsolute
-        const uint64_t MONEY_SUPPLY                             = UINT64_C(10'000'000'000'000'000);
-        const unsigned EMISSION_SPEED_FACTOR                    =                               25;
+        const uint64_t MONEY_SUPPLY                             = UINT64_C(41'000'000'000'000'000);
+        const unsigned EMISSION_SPEED_FACTOR                    =                               20;
         static_assert(EMISSION_SPEED_FACTOR <= 8 * sizeof(uint64_t), "Bad EMISSION_SPEED_FACTOR");
         // end obsoulte
         const uint32_t CRYPTONOTE_MAX_BLOCK_NUMBER              =                    1'000'000'000;
