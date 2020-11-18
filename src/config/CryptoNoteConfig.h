@@ -20,7 +20,7 @@ namespace CryptoNote
 {
     namespace parameters
     {
-        const uint64_t DIFFICULTY_TARGET                        =                               20; // seconds
+        const uint64_t DIFFICULTY_TARGET                        =                               30; // seconds
 
         // Infinite supply, following is obsolute
         const uint64_t MONEY_SUPPLY                             = UINT64_C(10'000'000'000'000'000);
