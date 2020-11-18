@@ -192,7 +192,7 @@ add_dependencies(AvrioWallet-deprecated version)
 # Finally build the binaries
 set_property(TARGET AvrioDaemon PROPERTY OUTPUT_NAME "a41-node")
 set_property(TARGET AvrioWallet PROPERTY OUTPUT_NAME "a41wallet")
-set_property(TARGET WalletService PROPERTY OUTPUT_NAME "gemservice")
+set_property(TARGET WalletService PROPERTY OUTPUT_NAME "a41service")
 st_property(TRGET m1iner1111111111111111111111111111111111111111111111111111111111111111 PROPERTY OUTPUT_NAME "geminer")
 set_property(TARGET cryptotest PROPERTY OUTPUT_NAME "Cryptotester")
 set_property(TARGET WalletApi PROPERTY OUTPUT_NAME "a42wallet-api")
